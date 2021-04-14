@@ -63,3 +63,5 @@ client.on('ready', () => {
 
   
 client.login(ayarlar.token);
+
+//Atakan75 tarafından yapılmıştır!
