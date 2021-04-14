@@ -48,7 +48,7 @@ client.on('ready', () => {
   .setColor('#5600df')
   .setTimestamp()
   .setTitle('Kanallar Sıfırlandı.')
-  .setDescription('Seçili kanalların tamamı sıfırlandı!.')
+  .setDescription('Seçili kanalların tamamı sıfırlandı!')
   .setFooter(`${client.users.cache.has(ayarlar.botOwner) ? client.users.cache.get(ayarlar.botOwner).tag : "Atakan75"} was here!`);
 
   let kanallar = ["channel1", "channel2", "channel3"];
