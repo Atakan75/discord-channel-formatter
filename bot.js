@@ -36,7 +36,7 @@ const resetChannels = async function(guildID, channelArray) {
 };
 
 client.on('ready', () => {  
-  client.user.setPresence({ activity: { name: "Atakan75 ❤️ AxePrime" }, status: "idle" });
+  client.user.setPresence({ activity: { name: "Atakan75 ❤️" }, status: "idle" });
   let botVoiceChannel = client.channels.cache.get(ayarlar.botVoiceChannelID);
   if (botVoiceChannel) botVoiceChannel.join().catch(err => console.error("Bot ses kanalına bağlanamadı!"));
   console.log ('_________________________________________');
