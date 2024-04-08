@@ -1,2 +1,2 @@
-# discord-kanal-sifirlayici
-Belirttiğiniz kanalları sıfırlar.
+# Discord Channel Formatter
+Creates a clone of the specified channel and deletes the old channel.
